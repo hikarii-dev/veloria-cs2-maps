@@ -127,11 +127,11 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: "Cowork/cs2/veloria-cs2-dumper -> target"
+          workspaces: "Cowork/games/cs2/sdk/veloria-cs2-dumper -> target"
 
       - name: Run dumper (workshop mode)
         if: steps.check.outputs.skip != 'true'
-        working-directory: Cowork/cs2/veloria-cs2-dumper
+        working-directory: Cowork/games/cs2/sdk/veloria-cs2-dumper
         run: |
           PT_FLAG=""
           if [ -n "${{ inputs.publish_time }}" ]; then
