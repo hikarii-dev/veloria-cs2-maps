@@ -96,14 +96,13 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         run: |
           STEAM_DIR="$RUNNER_TEMP/steamcmd"
-          WORKSHOP_CONTENT="$STEAM_DIR/steamapps/workshop/content/730"
           "$STEAM_DIR/steamcmd.sh" \
-            +force_install_dir "$STEAM_DIR" \
             +login anonymous \
             +workshop_download_item 730 ${{ inputs.workshop_id }} \
             +quit || true
-          WORKSHOP_DIR="$WORKSHOP_CONTENT/${{ inputs.workshop_id }}"
-          echo "Workshop dir contents:"
+          # SteamCMD places workshop content in $HOME/Steam regardless of force_install_dir
+          WORKSHOP_DIR=$(find "$HOME/Steam" "$STEAM_DIR" -path "*/workshop/content/730/${{ inputs.workshop_id }}" -type d 2>/dev/null | head -1)
+          echo "Workshop dir: $WORKSHOP_DIR"
           ls -la "$WORKSHOP_DIR" || echo "(empty or missing)"
           # Prefer *_dir.vpk (multi-part archive header) over chunk files (*_000.vpk etc.)
           VPK_FILE=$(find "$WORKSHOP_DIR" -name "*_dir.vpk" 2>/dev/null | head -1)
