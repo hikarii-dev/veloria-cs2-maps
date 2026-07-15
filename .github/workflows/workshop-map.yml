@@ -113,3 +113,19 @@ jobs:
             git commit -m "add map ${{ inputs.map_name }} (${{ inputs.workshop_id }})"
             git push
           fi
+
+      - name: Commit error marker on failure
+        if: failure()
+        run: |
+          cd maps-repo
+          mkdir -p "workshop/${{ inputs.workshop_id }}"
+          echo "workflow failed" > "workshop/${{ inputs.workshop_id }}/error.txt"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "workshop/${{ inputs.workshop_id }}/error.txt"
+          if git diff --staged --quiet; then
+            echo "error marker already exists"
+          else
+            git commit -m "error: failed to process ${{ inputs.map_name }} (${{ inputs.workshop_id }})"
+            git push
+          fi
