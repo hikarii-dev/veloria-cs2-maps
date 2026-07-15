@@ -1,0 +1,995 @@
+{
+  "buildid": 24209309,
+  "generated_at": "2026-07-15T14:01:42Z",
+  "maps": {
+    "cs_office": {
+      "images": {
+        "background": "maps/cs_office/background.png",
+        "radar": "maps/cs_office/radar.png"
+      },
+      "scale": 4.1,
+      "pos_x": -1838.0,
+      "pos_y": 1858.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "hostage"
+    },
+    "de_boulder": {
+      "images": {
+        "background": "maps/de_boulder/background.png",
+        "radar": "maps/de_boulder/radar.png"
+      },
+      "scale": 2.8491137,
+      "pos_x": -3273.4917,
+      "pos_y": 2930.2207,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_nuke_lower": {
+      "images": {
+        "radar": "maps/de_nuke_lower/radar.png"
+      },
+      "scale": 7.0,
+      "pos_x": -3453.0,
+      "pos_y": 2887.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "ar_baggage": {
+      "images": {
+        "radar": "maps/ar_baggage/radar.png",
+        "background": "maps/ar_baggage/background.png"
+      },
+      "scale": 2.539062,
+      "pos_x": -1316.0,
+      "pos_y": 1288.0,
+      "rotate": 1.0,
+      "zoom": 1.3,
+      "map_type": "arms_race"
+    },
+    "de_train": {
+      "images": {
+        "radar": "maps/de_train/radar.png",
+        "background": "maps/de_train/background.png"
+      },
+      "scale": 4.082077,
+      "pos_x": -2308.0,
+      "pos_y": 2078.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_mirage": {
+      "images": {
+        "background": "maps/de_mirage/background.png",
+        "radar": "maps/de_mirage/radar.png"
+      },
+      "scale": 5.0,
+      "pos_x": -3230.0,
+      "pos_y": 1713.0,
+      "rotate": 0.0,
+      "zoom": 0.0,
+      "map_type": "defuse"
+    },
+    "de_train_lower": {
+      "images": {
+        "radar": "maps/de_train_lower/radar.png"
+      },
+      "scale": 4.082077,
+      "pos_x": -2308.0,
+      "pos_y": 2078.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_nuke": {
+      "images": {
+        "background": "maps/de_nuke/background.png",
+        "radar": "maps/de_nuke/radar.png"
+      },
+      "scale": 7.0,
+      "pos_x": -3453.0,
+      "pos_y": 2887.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_anubis": {
+      "images": {
+        "radar": "maps/de_anubis/radar.png",
+        "background": "maps/de_anubis/background.png"
+      },
+      "scale": 5.22,
+      "pos_x": -2796.0,
+      "pos_y": 3328.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_ancient_night": {
+      "images": {
+        "radar": "maps/de_ancient_night/radar.png",
+        "background": "maps/de_ancient_night/background.png"
+      },
+      "scale": 5.0,
+      "pos_x": -2953.0,
+      "pos_y": 2164.0,
+      "rotate": 0.0,
+      "zoom": 0.0,
+      "map_type": "defuse"
+    },
+    "de_poseidon": {
+      "images": {
+        "background": "maps/de_poseidon/background.png",
+        "radar": "maps/de_poseidon/radar.png"
+      },
+      "scale": 3.0124886,
+      "pos_x": -1046.3943,
+      "pos_y": 1166.3942,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_cache": {
+      "images": {
+        "background": "maps/de_cache/background.png",
+        "radar": "maps/de_cache/radar.png"
+      },
+      "scale": 5.5,
+      "pos_x": -2000.0,
+      "pos_y": 3250.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "cs_italy": {
+      "images": {
+        "radar": "maps/cs_italy/radar.png",
+        "background": "maps/cs_italy/background.png"
+      },
+      "scale": 4.6,
+      "pos_x": -2647.0,
+      "pos_y": 2592.0,
+      "rotate": 1.0,
+      "zoom": 1.5,
+      "map_type": "hostage"
+    },
+    "de_vertigo_lower": {
+      "images": {
+        "radar": "maps/de_vertigo_lower/radar.png"
+      },
+      "scale": 4.0,
+      "pos_x": -3168.0,
+      "pos_y": 1762.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_inferno": {
+      "images": {
+        "radar": "maps/de_inferno/radar.png",
+        "background": "maps/de_inferno/background.png"
+      },
+      "scale": 4.9,
+      "pos_x": -2087.0,
+      "pos_y": 3870.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_eldorado": {
+      "images": {
+        "background": "maps/de_eldorado/background.png",
+        "radar": "maps/de_eldorado/radar.png"
+      },
+      "scale": 2.0656068,
+      "pos_x": -3548.6814,
+      "pos_y": 2571.1816,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_dust2": {
+      "images": {
+        "radar": "maps/de_dust2/radar.png",
+        "background": "maps/de_dust2/background.png"
+      },
+      "scale": 4.4,
+      "pos_x": -2476.0,
+      "pos_y": 3239.0,
+      "rotate": 1.0,
+      "zoom": 1.1,
+      "map_type": "defuse"
+    },
+    "de_ancient": {
+      "images": {
+        "background": "maps/de_ancient/background.png",
+        "radar": "maps/de_ancient/radar.png"
+      },
+      "scale": 5.0,
+      "pos_x": -2953.0,
+      "pos_y": 2164.0,
+      "rotate": 0.0,
+      "zoom": 0.0,
+      "map_type": "defuse"
+    },
+    "de_overpass": {
+      "images": {
+        "radar": "maps/de_overpass/radar.png",
+        "background": "maps/de_overpass/background.png"
+      },
+      "scale": 5.2,
+      "pos_x": -4831.0,
+      "pos_y": 1781.0,
+      "rotate": 0.0,
+      "zoom": 0.0,
+      "map_type": "defuse"
+    },
+    "ar_shoots_night": {
+      "images": {
+        "radar": "maps/ar_shoots_night/radar.png",
+        "background": "maps/ar_shoots_night/background.png"
+      },
+      "scale": 2.6875,
+      "pos_x": -1368.0,
+      "pos_y": 1952.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "arms_race"
+    },
+    "cs_shelter": {
+      "images": {
+        "radar": "maps/cs_shelter/radar.png",
+        "background": "maps/cs_shelter/background.png"
+      },
+      "scale": 3.311857,
+      "pos_x": -3448.7712,
+      "pos_y": 3805.3228,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "hostage"
+    },
+    "ar_shoots": {
+      "images": {
+        "background": "maps/ar_shoots/background.png",
+        "radar": "maps/ar_shoots/radar.png"
+      },
+      "scale": 2.6875,
+      "pos_x": -1368.0,
+      "pos_y": 1952.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "arms_race"
+    },
+    "ar_baggage_lower": {
+      "images": {
+        "radar": "maps/ar_baggage_lower/radar.png"
+      },
+      "scale": 2.539062,
+      "pos_x": -1316.0,
+      "pos_y": 1288.0,
+      "rotate": 1.0,
+      "zoom": 1.3,
+      "map_type": "arms_race"
+    },
+    "de_vertigo": {
+      "images": {
+        "background": "maps/de_vertigo/background.png",
+        "radar": "maps/de_vertigo/radar.png"
+      },
+      "scale": 4.0,
+      "pos_x": -3168.0,
+      "pos_y": 1762.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "ar_pool_day": {
+      "images": {
+        "background": "maps/ar_pool_day/background.png",
+        "radar": "maps/ar_pool_day/radar.png"
+      },
+      "scale": 2.125,
+      "pos_x": -1088.0,
+      "pos_y": 1600.0,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "arms_race"
+    },
+    "de_debris": {
+      "images": {
+        "radar": "maps/de_debris/radar.png",
+        "background": "maps/de_debris/background.png"
+      },
+      "scale": 1.9445695,
+      "pos_x": -3015.2393,
+      "pos_y": 2919.2393,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    },
+    "de_fachwerk": {
+      "images": {
+        "background": "maps/de_fachwerk/background.png",
+        "radar": "maps/de_fachwerk/radar.png"
+      },
+      "scale": 2.5537856,
+      "pos_x": -2311.0767,
+      "pos_y": 2874.6204,
+      "rotate": 0.0,
+      "zoom": 1.0,
+      "map_type": "defuse"
+    }
+  },
+  "weapons": {
+    "11": {
+      "name": "weapon_g3sg1",
+      "display_name": "weapon_g3sg1",
+      "icon_svg": "icons/g3sg1.svg"
+    },
+    "2": {
+      "name": "weapon_elite",
+      "display_name": "weapon_elite",
+      "icon_svg": "icons/elite.svg"
+    },
+    "64": {
+      "name": "weapon_revolver",
+      "display_name": "weapon_revolver",
+      "icon_svg": "icons/revolver.svg"
+    },
+    "514": {
+      "name": "weapon_knife_survival_bowie",
+      "display_name": "#SFUI_WPNHUD_knife_survival_bowie",
+      "icon_svg": "icons/knife_survival_bowie.svg"
+    },
+    "512": {
+      "name": "weapon_knife_falchion",
+      "display_name": "#SFUI_WPNHUD_knife_falchion_advanced",
+      "icon_svg": "icons/knife_falchion.svg"
+    },
+    "27": {
+      "name": "weapon_mag7",
+      "display_name": "weapon_mag7",
+      "icon_svg": "icons/mag7.svg"
+    },
+    "45": {
+      "name": "weapon_smokegrenade",
+      "display_name": "weapon_smokegrenade",
+      "icon_svg": "icons/smokegrenade.svg"
+    },
+    "10": {
+      "name": "weapon_famas",
+      "display_name": "weapon_famas",
+      "icon_svg": "icons/famas.svg"
+    },
+    "24": {
+      "name": "weapon_ump45",
+      "display_name": "weapon_ump45",
+      "icon_svg": "icons/ump45.svg"
+    },
+    "17": {
+      "name": "weapon_mac10",
+      "display_name": "weapon_mac10",
+      "icon_svg": "icons/mac10.svg"
+    },
+    "516": {
+      "name": "weapon_knife_push",
+      "display_name": "#SFUI_WPNHUD_knife_push",
+      "icon_svg": "icons/knife_push.svg"
+    },
+    "63": {
+      "name": "weapon_cz75a",
+      "display_name": "weapon_cz75a",
+      "icon_svg": "icons/cz75a.svg"
+    },
+    "28": {
+      "name": "weapon_negev",
+      "display_name": "weapon_negev",
+      "icon_svg": "icons/negev.svg"
+    },
+    "7": {
+      "name": "weapon_ak47",
+      "display_name": "weapon_ak47",
+      "icon_svg": "icons/ak47.svg"
+    },
+    "520": {
+      "name": "weapon_knife_gypsy_jackknife",
+      "display_name": "#SFUI_WPNHUD_knife_gypsy_jackknife",
+      "icon_svg": "icons/knife_gypsy_jackknife.svg"
+    },
+    "4": {
+      "name": "weapon_glock",
+      "display_name": "weapon_glock",
+      "icon_svg": "icons/glock.svg"
+    },
+    "47": {
+      "name": "weapon_decoy",
+      "display_name": "weapon_decoy",
+      "icon_svg": "icons/decoy.svg"
+    },
+    "523": {
+      "name": "weapon_knife_widowmaker",
+      "display_name": "#SFUI_WPNHUD_knife_widowmaker",
+      "icon_svg": "icons/knife_widowmaker.svg"
+    },
+    "36": {
+      "name": "weapon_p250",
+      "display_name": "weapon_p250",
+      "icon_svg": "icons/p250.svg"
+    },
+    "61": {
+      "name": "weapon_usp_silencer",
+      "display_name": "weapon_usp_silencer",
+      "icon_svg": "icons/usp_silencer.svg"
+    },
+    "503": {
+      "name": "weapon_knife_css",
+      "display_name": "#SFUI_WPNHUD_KnifeCSS",
+      "icon_svg": "icons/knife_css.svg"
+    },
+    "59": {
+      "name": "weapon_knife_t",
+      "display_name": "#SFUI_WPNHUD_Knife_T",
+      "icon_svg": "icons/knife_t.svg"
+    },
+    "29": {
+      "name": "weapon_sawedoff",
+      "display_name": "weapon_sawedoff",
+      "icon_svg": "icons/sawedoff.svg"
+    },
+    "41": {
+      "name": "weapon_knifegg",
+      "display_name": "#SFUI_WPNHUD_Knife",
+      "icon_svg": "icons/knifegg.svg"
+    },
+    "19": {
+      "name": "weapon_p90",
+      "display_name": "weapon_p90",
+      "icon_svg": "icons/p90.svg"
+    },
+    "13": {
+      "name": "weapon_galilar",
+      "display_name": "weapon_galilar",
+      "icon_svg": "icons/galilar.svg"
+    },
+    "38": {
+      "name": "weapon_scar20",
+      "display_name": "weapon_scar20",
+      "icon_svg": "icons/scar20.svg"
+    },
+    "26": {
+      "name": "weapon_bizon",
+      "display_name": "weapon_bizon",
+      "icon_svg": "icons/bizon.svg"
+    },
+    "30": {
+      "name": "weapon_tec9",
+      "display_name": "weapon_tec9",
+      "icon_svg": "icons/tec9.svg"
+    },
+    "44": {
+      "name": "weapon_hegrenade",
+      "display_name": "weapon_hegrenade",
+      "icon_svg": "icons/hegrenade.svg"
+    },
+    "8": {
+      "name": "weapon_aug",
+      "display_name": "weapon_aug",
+      "icon_svg": "icons/aug.svg"
+    },
+    "500": {
+      "name": "weapon_bayonet",
+      "display_name": "#SFUI_WPNHUD_KnifeBayonet",
+      "icon_svg": "icons/bayonet.svg"
+    },
+    "33": {
+      "name": "weapon_mp7",
+      "display_name": "weapon_mp7",
+      "icon_svg": "icons/mp7.svg"
+    },
+    "9": {
+      "name": "weapon_awp",
+      "display_name": "weapon_awp",
+      "icon_svg": "icons/awp.svg"
+    },
+    "60": {
+      "name": "weapon_m4a1_silencer",
+      "display_name": "weapon_m4a1_silencer",
+      "icon_svg": "icons/m4a1_silencer.svg"
+    },
+    "509": {
+      "name": "weapon_knife_tactical",
+      "display_name": "#SFUI_WPNHUD_KnifeTactical",
+      "icon_svg": "icons/knife_tactical.svg"
+    },
+    "16": {
+      "name": "weapon_m4a1",
+      "display_name": "weapon_m4a1",
+      "icon_svg": "icons/m4a1.svg"
+    },
+    "517": {
+      "name": "weapon_knife_cord",
+      "display_name": "#SFUI_WPNHUD_knife_cord",
+      "icon_svg": "icons/knife_cord.svg"
+    },
+    "40": {
+      "name": "weapon_ssg08",
+      "display_name": "weapon_ssg08",
+      "icon_svg": "icons/ssg08.svg"
+    },
+    "49": {
+      "name": "weapon_c4",
+      "display_name": "#SFUI_WPNHUD_C4",
+      "icon_svg": "icons/c4.svg"
+    },
+    "42": {
+      "name": "weapon_knife",
+      "display_name": "#SFUI_WPNHUD_Knife",
+      "icon_svg": "icons/knife.svg"
+    },
+    "39": {
+      "name": "weapon_sg556",
+      "display_name": "weapon_sg556",
+      "icon_svg": "icons/sg556.svg"
+    },
+    "1": {
+      "name": "weapon_deagle",
+      "display_name": "weapon_deagle",
+      "icon_svg": "icons/deagle.svg"
+    },
+    "508": {
+      "name": "weapon_knife_m9_bayonet",
+      "display_name": "#SFUI_WPNHUD_KnifeM9",
+      "icon_svg": "icons/knife_m9_bayonet.svg"
+    },
+    "43": {
+      "name": "weapon_flashbang",
+      "display_name": "weapon_flashbang",
+      "icon_svg": "icons/flashbang.svg"
+    },
+    "14": {
+      "name": "weapon_m249",
+      "display_name": "weapon_m249",
+      "icon_svg": "icons/m249.svg"
+    },
+    "522": {
+      "name": "weapon_knife_stiletto",
+      "display_name": "#SFUI_WPNHUD_knife_stiletto",
+      "icon_svg": "icons/knife_stiletto.svg"
+    },
+    "32": {
+      "name": "weapon_hkp2000",
+      "display_name": "weapon_hkp2000",
+      "icon_svg": "icons/hkp2000.svg"
+    },
+    "506": {
+      "name": "weapon_knife_gut",
+      "display_name": "#SFUI_WPNHUD_KnifeGut",
+      "icon_svg": "icons/knife_gut.svg"
+    },
+    "25": {
+      "name": "weapon_xm1014",
+      "display_name": "weapon_xm1014",
+      "icon_svg": "icons/xm1014.svg"
+    },
+    "35": {
+      "name": "weapon_nova",
+      "display_name": "weapon_nova",
+      "icon_svg": "icons/nova.svg"
+    },
+    "505": {
+      "name": "weapon_knife_flip",
+      "display_name": "#SFUI_WPNHUD_KnifeFlip",
+      "icon_svg": "icons/knife_flip.svg"
+    },
+    "507": {
+      "name": "weapon_knife_karambit",
+      "display_name": "#SFUI_WPNHUD_KnifeKaram",
+      "icon_svg": "icons/knife_karambit.svg"
+    },
+    "3": {
+      "name": "weapon_fiveseven",
+      "display_name": "weapon_fiveseven",
+      "icon_svg": "icons/fiveseven.svg"
+    },
+    "48": {
+      "name": "weapon_incgrenade",
+      "display_name": "weapon_incgrenade",
+      "icon_svg": "icons/incgrenade.svg"
+    },
+    "515": {
+      "name": "weapon_knife_butterfly",
+      "display_name": "#SFUI_WPNHUD_Knife_Butterfly",
+      "icon_svg": "icons/knife_butterfly.svg"
+    },
+    "525": {
+      "name": "weapon_knife_skeleton",
+      "display_name": "#SFUI_WPNHUD_knife_skeleton",
+      "icon_svg": "icons/knife_skeleton.svg"
+    },
+    "57": {
+      "name": "weapon_healthshot",
+      "display_name": "#SFUI_WPNHUD_Healthshot",
+      "icon_svg": "icons/healthshot.svg"
+    },
+    "519": {
+      "name": "weapon_knife_ursus",
+      "display_name": "#SFUI_WPNHUD_knife_ursus",
+      "icon_svg": "icons/knife_ursus.svg"
+    },
+    "526": {
+      "name": "weapon_knife_kukri",
+      "display_name": "#SFUI_WPNHUD_knife_kukri",
+      "icon_svg": "icons/knife_kukri.svg"
+    },
+    "34": {
+      "name": "weapon_mp9",
+      "display_name": "weapon_mp9",
+      "icon_svg": "icons/mp9.svg"
+    },
+    "23": {
+      "name": "weapon_mp5sd",
+      "display_name": "weapon_mp5sd",
+      "icon_svg": "icons/mp5sd.svg"
+    },
+    "46": {
+      "name": "weapon_molotov",
+      "display_name": "weapon_molotov",
+      "icon_svg": "icons/molotov.svg"
+    },
+    "31": {
+      "name": "weapon_taser",
+      "display_name": "weapon_taser",
+      "icon_svg": "icons/taser.svg"
+    },
+    "518": {
+      "name": "weapon_knife_canis",
+      "display_name": "#SFUI_WPNHUD_knife_canis",
+      "icon_svg": "icons/knife_canis.svg"
+    },
+    "521": {
+      "name": "weapon_knife_outdoor",
+      "display_name": "#SFUI_WPNHUD_knife_outdoor",
+      "icon_svg": "icons/knife_outdoor.svg"
+    }
+  },
+  "characters": {
+    "customplayer_ctm_st6_variantb_square": "characters/customplayer_ctm_st6_variantb_square.png",
+    "customplayer_ctm_swat_variantj": "characters/customplayer_ctm_swat_variantj.png",
+    "customplayer_ctm_swat_varianth": "characters/customplayer_ctm_swat_varianth.png",
+    "customplayer_tm_separatist_varianta_square": "characters/customplayer_tm_separatist_varianta_square.png",
+    "customplayer_tm_pirate_variantb": "characters/customplayer_tm_pirate_variantb.png",
+    "customplayer_ctm_gendarmerie_varianta_square": "characters/customplayer_ctm_gendarmerie_varianta_square.png",
+    "customplayer_ctm_fbi_varianta_square": "characters/customplayer_ctm_fbi_varianta_square.png",
+    "customplayer_ctm_swat_variantc_square": "characters/customplayer_ctm_swat_variantc_square.png",
+    "customplayer_ctm_swat_variante": "characters/customplayer_ctm_swat_variante.png",
+    "customplayer_tm_pirate_square": "characters/customplayer_tm_pirate_square.png",
+    "customplayer_tm_phoenix_varianta": "characters/customplayer_tm_phoenix_varianta.png",
+    "customplayer_tm_professional_varh_square": "characters/customplayer_tm_professional_varh_square.png",
+    "customplayer_tm_phoenix_variantf_square": "characters/customplayer_tm_phoenix_variantf_square.png",
+    "customplayer_ctm_diver_variantb_square": "characters/customplayer_ctm_diver_variantb_square.png",
+    "customplayer_sas_variante": "characters/customplayer_sas_variante.png",
+    "customplayer_t_map_based_large_square": "characters/customplayer_t_map_based_large_square.png",
+    "customplayer_ctm_st6_variantb": "characters/customplayer_ctm_st6_variantb.png",
+    "customplayer_ctm_gsg9_variantb_square": "characters/customplayer_ctm_gsg9_variantb_square.png",
+    "customplayer_tm_professional_varf3": "characters/customplayer_tm_professional_varf3.png",
+    "customplayer_tm_leet_variantc_square": "characters/customplayer_tm_leet_variantc_square.png",
+    "customplayer_tm_professional_varf2_square": "characters/customplayer_tm_professional_varf2_square.png",
+    "customplayer_tm_jungle_raider_variante": "characters/customplayer_tm_jungle_raider_variante.png",
+    "customplayer_tm_professional_varf4_square": "characters/customplayer_tm_professional_varf4_square.png",
+    "customplayer_tm_jungle_raider_variantc": "characters/customplayer_tm_jungle_raider_variantc.png",
+    "customplayer_tm_jungle_raider_variantf_square": "characters/customplayer_tm_jungle_raider_variantf_square.png",
+    "customplayer_ctm_gendarmerie_variantc_square": "characters/customplayer_ctm_gendarmerie_variantc_square.png",
+    "customplayer_ctm_st6_square": "characters/customplayer_ctm_st6_square.png",
+    "customplayer_tm_jumpsuit_varianta": "characters/customplayer_tm_jumpsuit_varianta.png",
+    "customplayer_ctm_swat_variantb": "characters/customplayer_ctm_swat_variantb.png",
+    "customplayer_ctm_st6_variantn_square": "characters/customplayer_ctm_st6_variantn_square.png",
+    "customplayer_tm_balkan_variantl": "characters/customplayer_tm_balkan_variantl.png",
+    "customplayer_ctm_diver_varianta": "characters/customplayer_ctm_diver_varianta.png",
+    "customplayer_tm_phoenix_varianti_square": "characters/customplayer_tm_phoenix_varianti_square.png",
+    "customplayer_ctm_gign_variantc_square": "characters/customplayer_ctm_gign_variantc_square.png",
+    "customplayer_gign_variantc": "characters/customplayer_gign_variantc.png",
+    "customplayer_ctm_gsg9_varianta": "characters/customplayer_ctm_gsg9_varianta.png",
+    "customplayer_tm_phoenix_varianta_square": "characters/customplayer_tm_phoenix_varianta_square.png",
+    "customplayer_ctm_idf_variantc": "characters/customplayer_ctm_idf_variantc.png",
+    "customplayer_ctm_fbi_variante": "characters/customplayer_ctm_fbi_variante.png",
+    "customplayer_ctm_sas_variantc_square": "characters/customplayer_ctm_sas_variantc_square.png",
+    "customplayer_ctm_swat": "characters/customplayer_ctm_swat.png",
+    "customplayer_tm_professional_varf1": "characters/customplayer_tm_professional_varf1.png",
+    "customplayer_tm_leet_varianth": "characters/customplayer_tm_leet_varianth.png",
+    "customplayer_t_map_based": "characters/customplayer_t_map_based.png",
+    "customplayer_tm_leet_variantj_square": "characters/customplayer_tm_leet_variantj_square.png",
+    "customplayer_tm_jumpsuit_variantb_square": "characters/customplayer_tm_jumpsuit_variantb_square.png",
+    "customplayer_tm_jungle_raider_variantf2_square": "characters/customplayer_tm_jungle_raider_variantf2_square.png",
+    "customplayer_ct_map_based": "characters/customplayer_ct_map_based.png",
+    "customplayer_tm_anarchist_variantb": "characters/customplayer_tm_anarchist_variantb.png",
+    "customplayer_pirate_varianta": "characters/customplayer_pirate_varianta.png",
+    "customplayer_ctm_st6_varianti": "characters/customplayer_ctm_st6_varianti.png",
+    "customplayer_ctm_gign_varianta": "characters/customplayer_ctm_gign_varianta.png",
+    "customplayer_tm_jungle_raider_variantc_square": "characters/customplayer_tm_jungle_raider_variantc_square.png",
+    "customplayer_ctm_st6_variantg": "characters/customplayer_ctm_st6_variantg.png",
+    "customplayer_ctm_gign_variantd_square": "characters/customplayer_ctm_gign_variantd_square.png",
+    "customplayer_tm_anarchist": "characters/customplayer_tm_anarchist.png",
+    "customplayer_tm_professional_vari_square": "characters/customplayer_tm_professional_vari_square.png",
+    "customplayer_tm_professional_varg_square": "characters/customplayer_tm_professional_varg_square.png",
+    "customplayer_tm_phoenix_variantd": "characters/customplayer_tm_phoenix_variantd.png",
+    "customplayer_ctm_fbi_variantf_square": "characters/customplayer_ctm_fbi_variantf_square.png",
+    "customplayer_ctm_gendarmerie_variantd_square": "characters/customplayer_ctm_gendarmerie_variantd_square.png",
+    "customplayer_tm_separatist_variantb": "characters/customplayer_tm_separatist_variantb.png",
+    "customplayer_ctm_st6_variantj_square": "characters/customplayer_ctm_st6_variantj_square.png",
+    "customplayer_ctm_fbi_variantb_square": "characters/customplayer_ctm_fbi_variantb_square.png",
+    "customplayer_gsg9_varianta": "characters/customplayer_gsg9_varianta.png",
+    "customplayer_tm_balkan_varianth": "characters/customplayer_tm_balkan_varianth.png",
+    "customplayer_ctm_swat_variantc": "characters/customplayer_ctm_swat_variantc.png",
+    "customplayer_ctm_idf_variantd_square": "characters/customplayer_ctm_idf_variantd_square.png",
+    "customplayer_ctm_gendarmerie_variante_square": "characters/customplayer_ctm_gendarmerie_variante_square.png",
+    "customplayer_ctm_fbi_variantg": "characters/customplayer_ctm_fbi_variantg.png",
+    "customplayer_tm_balkan_varianta_square": "characters/customplayer_tm_balkan_varianta_square.png",
+    "customplayer_ctm_diver_variantb": "characters/customplayer_ctm_diver_variantb.png",
+    "customplayer_ctm_gsg9_varianta_square": "characters/customplayer_ctm_gsg9_varianta_square.png",
+    "customplayer_ctm_st6_variante_square": "characters/customplayer_ctm_st6_variante_square.png",
+    "customplayer_tm_pirate_variantd": "characters/customplayer_tm_pirate_variantd.png",
+    "customplayer_ctm_fbi_varianth_square": "characters/customplayer_ctm_fbi_varianth_square.png",
+    "customplayer_ctm_sas_variantc": "characters/customplayer_ctm_sas_variantc.png",
+    "customplayer_ctm_fbi_variantc": "characters/customplayer_ctm_fbi_variantc.png",
+    "customplayer_ctm_fbi_square": "characters/customplayer_ctm_fbi_square.png",
+    "customplayer_ctm_swat_varianta": "characters/customplayer_ctm_swat_varianta.png",
+    "customplayer_ctm_gendarmerie_varianta": "characters/customplayer_ctm_gendarmerie_varianta.png",
+    "customplayer_tm_pirate_variantc": "characters/customplayer_tm_pirate_variantc.png",
+    "customplayer_ctm_st6_variantn": "characters/customplayer_ctm_st6_variantn.png",
+    "customplayer_tm_separatist_variantd": "characters/customplayer_tm_separatist_variantd.png",
+    "customplayer_ctm_st6_varianta": "characters/customplayer_ctm_st6_varianta.png",
+    "customplayer_ctm_idf_variantb_square": "characters/customplayer_ctm_idf_variantb_square.png",
+    "customplayer_ctm_diver_varianta_square": "characters/customplayer_ctm_diver_varianta_square.png",
+    "customplayer_tm_leet_varianta_square": "characters/customplayer_tm_leet_varianta_square.png",
+    "customplayer_tm_balkan_varianth_square": "characters/customplayer_tm_balkan_varianth_square.png",
+    "customplayer_tm_leet_variantg_square": "characters/customplayer_tm_leet_variantg_square.png",
+    "customplayer_ctm_fbi": "characters/customplayer_ctm_fbi.png",
+    "customplayer_tm_professional_varf1_square": "characters/customplayer_tm_professional_varf1_square.png",
+    "customplayer_tm_pirate_variantd_square": "characters/customplayer_tm_pirate_variantd_square.png",
+    "customplayer_tm_leet_variantb_square": "characters/customplayer_tm_leet_variantb_square.png",
+    "customplayer_ctm_swat_variantk_square": "characters/customplayer_ctm_swat_variantk_square.png",
+    "customplayer_tm_anarchist_varianta": "characters/customplayer_tm_anarchist_varianta.png",
+    "customplayer_ctm_st6_variantm_square": "characters/customplayer_ctm_st6_variantm_square.png",
+    "customplayer_tm_balkan_variantb": "characters/customplayer_tm_balkan_variantb.png",
+    "customplayer_tm_jungle_raider_variante_square": "characters/customplayer_tm_jungle_raider_variante_square.png",
+    "customplayer_ctm_swat_varianti": "characters/customplayer_ctm_swat_varianti.png",
+    "customplayer_tm_jumpsuit_varianta_square": "characters/customplayer_tm_jumpsuit_varianta_square.png",
+    "customplayer_tm_jungle_raider_varianta_square": "characters/customplayer_tm_jungle_raider_varianta_square.png",
+    "customplayer_tm_professional_varj": "characters/customplayer_tm_professional_varj.png",
+    "customplayer_tm_anarchist_variantd": "characters/customplayer_tm_anarchist_variantd.png",
+    "customplayer_tm_balkan_varianti": "characters/customplayer_tm_balkan_varianti.png",
+    "customplayer_tm_professional_varf2": "characters/customplayer_tm_professional_varf2.png",
+    "customplayer_tm_leet_varianta": "characters/customplayer_tm_leet_varianta.png",
+    "customplayer_tm_balkan_variante": "characters/customplayer_tm_balkan_variante.png",
+    "customplayer_ctm_fbi_variantf": "characters/customplayer_ctm_fbi_variantf.png",
+    "customplayer_tm_balkan_variantc_square": "characters/customplayer_tm_balkan_variantc_square.png",
+    "customplayer_ctm_swat_varianti_square": "characters/customplayer_ctm_swat_varianti_square.png",
+    "customplayer_ctm_sas_variantg_square": "characters/customplayer_ctm_sas_variantg_square.png",
+    "customplayer_tm_anarchist_variantb_square": "characters/customplayer_tm_anarchist_variantb_square.png",
+    "customplayer_ctm_gsg9_variantc_square": "characters/customplayer_ctm_gsg9_variantc_square.png",
+    "customplayer_pirate_variantb": "characters/customplayer_pirate_variantb.png",
+    "customplayer_tm_anarchist_square": "characters/customplayer_tm_anarchist_square.png",
+    "customplayer_ctm_st6_variantd": "characters/customplayer_ctm_st6_variantd.png",
+    "customplayer_tm_phoenix_variantd_square": "characters/customplayer_tm_phoenix_variantd_square.png",
+    "customplayer_tm_leet_variantj": "characters/customplayer_tm_leet_variantj.png",
+    "customplayer_tm_balkan_variantk": "characters/customplayer_tm_balkan_variantk.png",
+    "customplayer_ctm_st6_variantj": "characters/customplayer_ctm_st6_variantj.png",
+    "customplayer_ctm_fbi_variantd_square": "characters/customplayer_ctm_fbi_variantd_square.png",
+    "customplayer_ctm_swat_variantb_square": "characters/customplayer_ctm_swat_variantb_square.png",
+    "customplayer_ctm_fbi_variantb": "characters/customplayer_ctm_fbi_variantb.png",
+    "customplayer_tm_professional_varj_square": "characters/customplayer_tm_professional_varj_square.png",
+    "customplayer_tm_balkan_variantl_square": "characters/customplayer_tm_balkan_variantl_square.png",
+    "customplayer_ctm_swat_variantg": "characters/customplayer_ctm_swat_variantg.png",
+    "customplayer_ctm_sas_variantb": "characters/customplayer_ctm_sas_variantb.png",
+    "customplayer_tm_leet_variantf": "characters/customplayer_tm_leet_variantf.png",
+    "customplayer_tm_separatist_varianta": "characters/customplayer_tm_separatist_varianta.png",
+    "customplayer_ctm_idf_square": "characters/customplayer_ctm_idf_square.png",
+    "customplayer_tm_phoenix_varianti": "characters/customplayer_tm_phoenix_varianti.png",
+    "customplayer_ctm_idf_variante": "characters/customplayer_ctm_idf_variante.png",
+    "customplayer_tm_anarchist_variantd_square": "characters/customplayer_tm_anarchist_variantd_square.png",
+    "customplayer_tm_professional_var4_square": "characters/customplayer_tm_professional_var4_square.png",
+    "customplayer_ctm_fbi_variantc_square": "characters/customplayer_ctm_fbi_variantc_square.png",
+    "customplayer_idf": "characters/customplayer_idf.png",
+    "customplayer_ctm_gign_variantb": "characters/customplayer_ctm_gign_variantb.png",
+    "customplayer_tm_leet_variantd_square": "characters/customplayer_tm_leet_variantd_square.png",
+    "customplayer_tm_leet_varianth_square": "characters/customplayer_tm_leet_varianth_square.png",
+    "customplayer_tm_pirate": "characters/customplayer_tm_pirate.png",
+    "customplayer_tm_phoenix_square": "characters/customplayer_tm_phoenix_square.png",
+    "customplayer_ctm_heavy": "characters/customplayer_ctm_heavy.png",
+    "customplayer_ctm_gendarmerie_variantb": "characters/customplayer_ctm_gendarmerie_variantb.png",
+    "customplayer_ctm_idf_variantd": "characters/customplayer_ctm_idf_variantd.png",
+    "customplayer_ctm_idf_variantc_square": "characters/customplayer_ctm_idf_variantc_square.png",
+    "customplayer_tm_phoenix_variantb_square": "characters/customplayer_tm_phoenix_variantb_square.png",
+    "customplayer_tm_separatist_variantc": "characters/customplayer_tm_separatist_variantc.png",
+    "customplayer_tm_jungle_raider_variantd": "characters/customplayer_tm_jungle_raider_variantd.png",
+    "customplayer_ctm_st6_variantc": "characters/customplayer_ctm_st6_variantc.png",
+    "customplayer_tm_balkan_varianti_square": "characters/customplayer_tm_balkan_varianti_square.png",
+    "customplayer_ctm_gendarmerie_variantd": "characters/customplayer_ctm_gendarmerie_variantd.png",
+    "customplayer_ctm_st6_variantl": "characters/customplayer_ctm_st6_variantl.png",
+    "customplayer_ctm_swat_variantj_square": "characters/customplayer_ctm_swat_variantj_square.png",
+    "customplayer_tm_phoenix_varianth_square": "characters/customplayer_tm_phoenix_varianth_square.png",
+    "customplayer_ctm_swat_varianth_square": "characters/customplayer_ctm_swat_varianth_square.png",
+    "customplayer_tm_jumpsuit_variantb": "characters/customplayer_tm_jumpsuit_variantb.png",
+    "customplayer_tm_pirate_variantc_square": "characters/customplayer_tm_pirate_variantc_square.png",
+    "customplayer_tm_professional_var3_square": "characters/customplayer_tm_professional_var3_square.png",
+    "customplayer_tm_professional_varf": "characters/customplayer_tm_professional_varf.png",
+    "customplayer_ctm_gsg9_variantb": "characters/customplayer_ctm_gsg9_variantb.png",
+    "customplayer_ctm_swat_variantf_square": "characters/customplayer_ctm_swat_variantf_square.png",
+    "customplayer_t_map_based_square": "characters/customplayer_t_map_based_square.png",
+    "customplayer_ctm_gsg9_variantd": "characters/customplayer_ctm_gsg9_variantd.png",
+    "customplayer_ctm_sas_variantg": "characters/customplayer_ctm_sas_variantg.png",
+    "customplayer_ctm_st6_variantk_square": "characters/customplayer_ctm_st6_variantk_square.png",
+    "customplayer_ctm_sas_varianta": "characters/customplayer_ctm_sas_varianta.png",
+    "customplayer_tm_jungle_raider_variantb2": "characters/customplayer_tm_jungle_raider_variantb2.png",
+    "customplayer_tm_jungle_raider_variantb": "characters/customplayer_tm_jungle_raider_variantb.png",
+    "customplayer_tm_professional_varf_square": "characters/customplayer_tm_professional_varf_square.png",
+    "customplayer_ctm_st6_variantc_square": "characters/customplayer_ctm_st6_variantc_square.png",
+    "customplayer_tm_professional_varg": "characters/customplayer_tm_professional_varg.png",
+    "customplayer_tm_professional_square": "characters/customplayer_tm_professional_square.png",
+    "customplayer_tm_phoenix_varianth": "characters/customplayer_tm_phoenix_varianth.png",
+    "customplayer_ctm_gign_variantb_square": "characters/customplayer_ctm_gign_variantb_square.png",
+    "customplayer_jumpsuit_varianta": "characters/customplayer_jumpsuit_varianta.png",
+    "customplayer_tm_balkan_variantb_square": "characters/customplayer_tm_balkan_variantb_square.png",
+    "customplayer_ctm_st6_varianti_square": "characters/customplayer_ctm_st6_varianti_square.png",
+    "customplayer_ctm_idf_variante_square": "characters/customplayer_ctm_idf_variante_square.png",
+    "customplayer_ctm_swat_variantk": "characters/customplayer_ctm_swat_variantk.png",
+    "customplayer_ctm_st6_varianta_square": "characters/customplayer_ctm_st6_varianta_square.png",
+    "customplayer_ctm_idf_variantf_square": "characters/customplayer_ctm_idf_variantf_square.png",
+    "customplayer_tm_professional_varf3_square": "characters/customplayer_tm_professional_varf3_square.png",
+    "customplayer_tm_phoenix_variantc": "characters/customplayer_tm_phoenix_variantc.png",
+    "customplayer_ctm_fbi_varianth": "characters/customplayer_ctm_fbi_varianth.png",
+    "customplayer_tm_leet_variante": "characters/customplayer_tm_leet_variante.png",
+    "customplayer_ctm_gign_variantc": "characters/customplayer_ctm_gign_variantc.png",
+    "customplayer_tm_phoenix_variantc_square": "characters/customplayer_tm_phoenix_variantc_square.png",
+    "customplayer_ctm_sas": "characters/customplayer_ctm_sas.png",
+    "customplayer_tm_phoenix_variantf": "characters/customplayer_tm_phoenix_variantf.png",
+    "customplayer_tm_professional_varf5_square": "characters/customplayer_tm_professional_varf5_square.png",
+    "customplayer_ctm_diver_variantc": "characters/customplayer_ctm_diver_variantc.png",
+    "customplayer_ctm_swat_variantf": "characters/customplayer_ctm_swat_variantf.png",
+    "customplayer_tm_balkan_variantj": "characters/customplayer_tm_balkan_variantj.png",
+    "customplayer_tm_professional_var3": "characters/customplayer_tm_professional_var3.png",
+    "customplayer_tm_balkan_variantf_square": "characters/customplayer_tm_balkan_variantf_square.png",
+    "customplayer_tm_leet_varianti_square": "characters/customplayer_tm_leet_varianti_square.png",
+    "customplayer_ctm_heavy_square": "characters/customplayer_ctm_heavy_square.png",
+    "customplayer_tm_leet_variante_square": "characters/customplayer_tm_leet_variante_square.png",
+    "customplayer_tm_phoenix": "characters/customplayer_tm_phoenix.png",
+    "customplayer_ctm_st6_variantg_square": "characters/customplayer_ctm_st6_variantg_square.png",
+    "customplayer_tm_separatist_variantd_square": "characters/customplayer_tm_separatist_variantd_square.png",
+    "customplayer_ctm_idf_variantb": "characters/customplayer_ctm_idf_variantb.png",
+    "customplayer_ctm_sas_varianta_square": "characters/customplayer_ctm_sas_varianta_square.png",
+    "customplayer_ctm_st6_variantf": "characters/customplayer_ctm_st6_variantf.png",
+    "customplayer_tm_jungle_raider_variantb2_square": "characters/customplayer_tm_jungle_raider_variantb2_square.png",
+    "customplayer_tm_balkan_variantd": "characters/customplayer_tm_balkan_variantd.png",
+    "customplayer_ctm_gign_varianta_square": "characters/customplayer_ctm_gign_varianta_square.png",
+    "customplayer_tm_jungle_raider_variantf2": "characters/customplayer_tm_jungle_raider_variantf2.png",
+    "customplayer_ctm_swat_variantd_square": "characters/customplayer_ctm_swat_variantd_square.png",
+    "customplayer_tm_phoenix_heavy": "characters/customplayer_tm_phoenix_heavy.png",
+    "customplayer_ctm_gsg9_variantd_square": "characters/customplayer_ctm_gsg9_variantd_square.png",
+    "customplayer_tm_separatist": "characters/customplayer_tm_separatist.png",
+    "customplayer_tm_phoenix_heavy_square": "characters/customplayer_tm_phoenix_heavy_square.png",
+    "customplayer_ctm_st6_variantk": "characters/customplayer_ctm_st6_variantk.png",
+    "customplayer_tm_professional_varf5": "characters/customplayer_tm_professional_varf5.png",
+    "customplayer_tm_jumpsuit_variantc_square": "characters/customplayer_tm_jumpsuit_variantc_square.png",
+    "customplayer_tm_anarchist_variantc_square": "characters/customplayer_tm_anarchist_variantc_square.png",
+    "customplayer_tm_pirate_varianta": "characters/customplayer_tm_pirate_varianta.png",
+    "customplayer_ctm_gsg9": "characters/customplayer_ctm_gsg9.png",
+    "customplayer_tm_jumpsuit_variantc": "characters/customplayer_tm_jumpsuit_variantc.png",
+    "customplayer_tm_phoenix_variantg": "characters/customplayer_tm_phoenix_variantg.png",
+    "customplayer_ctm_st6_varianth": "characters/customplayer_ctm_st6_varianth.png",
+    "customplayer_ctm_st6_variantl_square": "characters/customplayer_ctm_st6_variantl_square.png",
+    "customplayer_tm_leet_variantg": "characters/customplayer_tm_leet_variantg.png",
+    "customplayer_tm_professional_var2": "characters/customplayer_tm_professional_var2.png",
+    "customplayer_ctm_fbi_varianta": "characters/customplayer_ctm_fbi_varianta.png",
+    "customplayer_tm_separatist_variantb_square": "characters/customplayer_tm_separatist_variantb_square.png",
+    "customplayer_ctm_fbi_variantd": "characters/customplayer_ctm_fbi_variantd.png",
+    "customplayer_tm_balkan_variantc": "characters/customplayer_tm_balkan_variantc.png",
+    "customplayer_tm_balkan_variantd_square": "characters/customplayer_tm_balkan_variantd_square.png",
+    "customplayer_tm_leet_varianti": "characters/customplayer_tm_leet_varianti.png",
+    "customplayer_ctm_sas_variantb_square": "characters/customplayer_ctm_sas_variantb_square.png",
+    "customplayer_ctm_gsg9_variantc": "characters/customplayer_ctm_gsg9_variantc.png",
+    "customplayer_tm_jungle_raider_variantb_square": "characters/customplayer_tm_jungle_raider_variantb_square.png",
+    "customplayer_tm_professional_var4": "characters/customplayer_tm_professional_var4.png",
+    "customplayer_ctm_gign": "characters/customplayer_ctm_gign.png",
+    "customplayer_ctm_st6_variantm": "characters/customplayer_ctm_st6_variantm.png",
+    "customplayer_ctm_gendarmerie_variante": "characters/customplayer_ctm_gendarmerie_variante.png",
+    "customplayer_ctm_swat_varianta_square": "characters/customplayer_ctm_swat_varianta_square.png",
+    "customplayer_ctm_st6_variante": "characters/customplayer_ctm_st6_variante.png",
+    "customplayer_ctm_swat_variantg_square": "characters/customplayer_ctm_swat_variantg_square.png",
+    "customplayer_tm_balkan_variantj_square": "characters/customplayer_tm_balkan_variantj_square.png",
+    "customplayer_tm_professional_varh": "characters/customplayer_tm_professional_varh.png",
+    "customplayer_professional_var3": "characters/customplayer_professional_var3.png",
+    "customplayer_tm_balkan_variantf": "characters/customplayer_tm_balkan_variantf.png",
+    "customplayer_ctm_sas_variantf": "characters/customplayer_ctm_sas_variantf.png",
+    "customplayer_ctm_gign_variantd": "characters/customplayer_ctm_gign_variantd.png",
+    "customplayer_gsg9_variantc": "characters/customplayer_gsg9_variantc.png",
+    "customplayer_tm_leet_variantf_square": "characters/customplayer_tm_leet_variantf_square.png",
+    "customplayer_ctm_sas_variantd_square": "characters/customplayer_ctm_sas_variantd_square.png",
+    "customplayer_ctm_sas_variantf_square": "characters/customplayer_ctm_sas_variantf_square.png",
+    "customplayer_professional_var4": "characters/customplayer_professional_var4.png",
+    "customplayer_ctm_sas_square": "characters/customplayer_ctm_sas_square.png",
+    "customplayer_tm_separatist_square": "characters/customplayer_tm_separatist_square.png",
+    "customplayer_tm_anarchist_varianta_square": "characters/customplayer_tm_anarchist_varianta_square.png",
+    "customplayer_tm_jungle_raider_variantd_square": "characters/customplayer_tm_jungle_raider_variantd_square.png",
+    "customplayer_tm_leet_variantd": "characters/customplayer_tm_leet_variantd.png",
+    "customplayer_tm_phoenix_variantg_square": "characters/customplayer_tm_phoenix_variantg_square.png",
+    "customplayer_tm_balkan_variante_square": "characters/customplayer_tm_balkan_variante_square.png",
+    "customplayer_tm_balkan_variantk_square": "characters/customplayer_tm_balkan_variantk_square.png",
+    "customplayer_tm_separatist_variantc_square": "characters/customplayer_tm_separatist_variantc_square.png",
+    "customplayer_ctm_st6_variantd_square": "characters/customplayer_ctm_st6_variantd_square.png",
+    "customplayer_tm_balkan_variantg": "characters/customplayer_tm_balkan_variantg.png",
+    "customplayer_ctm_sas_variantd": "characters/customplayer_ctm_sas_variantd.png",
+    "customplayer_separatist_variantd": "characters/customplayer_separatist_variantd.png",
+    "customplayer_ctm_swat_square": "characters/customplayer_ctm_swat_square.png",
+    "customplayer_ctm_st6": "characters/customplayer_ctm_st6.png",
+    "customplayer_swat_variantb": "characters/customplayer_swat_variantb.png",
+    "customplayer_tm_pirate_varianta_square": "characters/customplayer_tm_pirate_varianta_square.png",
+    "customplayer_tm_balkan_variantg_square": "characters/customplayer_tm_balkan_variantg_square.png",
+    "customplayer_tm_professional": "characters/customplayer_tm_professional.png",
+    "customplayer_tm_professional_vari": "characters/customplayer_tm_professional_vari.png",
+    "customplayer_tm_professional_varf4": "characters/customplayer_tm_professional_varf4.png",
+    "customplayer_tm_balkan_varianta": "characters/customplayer_tm_balkan_varianta.png",
+    "customplayer_tm_pirate_variantb_square": "characters/customplayer_tm_pirate_variantb_square.png",
+    "customplayer_ctm_fbi_variante_square": "characters/customplayer_ctm_fbi_variante_square.png",
+    "customplayer_tm_leet_variantc": "characters/customplayer_tm_leet_variantc.png",
+    "customplayer_tm_professional_var1": "characters/customplayer_tm_professional_var1.png",
+    "customplayer_tm_anarchist_variantc": "characters/customplayer_tm_anarchist_variantc.png",
+    "customplayer_ctm_gign_square": "characters/customplayer_ctm_gign_square.png",
+    "customplayer_ctm_diver_variantc_square": "characters/customplayer_ctm_diver_variantc_square.png",
+    "customplayer_gign": "characters/customplayer_gign.png",
+    "customplayer_tm_jungle_raider_varianta": "characters/customplayer_tm_jungle_raider_varianta.png",
+    "customplayer_tm_professional_var2_square": "characters/customplayer_tm_professional_var2_square.png",
+    "customplayer_ctm_gsg9_square": "characters/customplayer_ctm_gsg9_square.png",
+    "customplayer_ctm_swat_variante_square": "characters/customplayer_ctm_swat_variante_square.png",
+    "customplayer_ctm_idf_variantf": "characters/customplayer_ctm_idf_variantf.png",
+    "customplayer_ctm_gendarmerie_variantc": "characters/customplayer_ctm_gendarmerie_variantc.png",
+    "customplayer_ctm_idf": "characters/customplayer_ctm_idf.png",
+    "customplayer_tm_leet_variantb": "characters/customplayer_tm_leet_variantb.png",
+    "customplayer_ctm_fbi_variantg_square": "characters/customplayer_ctm_fbi_variantg_square.png",
+    "customplayer_tm_professional_var1_square": "characters/customplayer_tm_professional_var1_square.png",
+    "customplayer_tm_phoenix_variantb": "characters/customplayer_tm_phoenix_variantb.png",
+    "customplayer_swat_variantd": "characters/customplayer_swat_variantd.png",
+    "customplayer_ctm_swat_variantd": "characters/customplayer_ctm_swat_variantd.png",
+    "customplayer_ctm_gendarmerie_variantb_square": "characters/customplayer_ctm_gendarmerie_variantb_square.png",
+    "customplayer_tm_jungle_raider_variantf": "characters/customplayer_tm_jungle_raider_variantf.png"
+  },
+  "constants": {
+    "grenade_ammo_slots": {
+      "smoke": 15,
+      "he": 13,
+      "decoy": 17,
+      "flash": 14,
+      "molotov": 16
+    },
+    "grenade_weapon_ids": {
+      "smokegrenade": 45,
+      "flashbang": 43,
+      "decoy": 47,
+      "hegrenade": 44,
+      "molotov": 46,
+      "incgrenade": 48
+    },
+    "team_ids": {
+      "spectator": 1,
+      "counter_terrorist": 3,
+      "terrorist": 2,
+      "none": 0
+    },
+    "grenade_durations_ms": {
+      "flashbang": 3000,
+      "molotov": 7000,
+      "incendiary": 5500,
+      "fallback": 2000,
+      "smoke": 18000
+    },
+    "grenade_radii": {
+      "smoke": 144.0,
+      "incendiary": 175.0,
+      "molotov": 175.0
+    },
+    "flash_max_duration_s": 3.0,
+    "smoke_expansion_delay_s": 2.0
+  }
+}
