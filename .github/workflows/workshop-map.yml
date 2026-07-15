@@ -40,6 +40,20 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Clear stale error marker
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          ERROR_FILE="maps-repo/workshop/${{ inputs.workshop_id }}/error.txt"
+          if [ -f "$ERROR_FILE" ]; then
+            cd maps-repo
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git rm "workshop/${{ inputs.workshop_id }}/error.txt"
+            git commit -m "retry: ${{ inputs.map_name }} (${{ inputs.workshop_id }})"
+            git push
+            cd ..
+          fi
+
       - name: Checkout private repo (dumper source)
         if: steps.check.outputs.skip != 'true'
         uses: actions/checkout@v4
@@ -116,6 +130,7 @@ jobs:
           cd maps-repo
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm --ignore-unmatch "workshop/${{ inputs.workshop_id }}/error.txt" 2>/dev/null || true
           git add workshop/
           if git diff --staged --quiet; then
             echo "No changes to commit"
