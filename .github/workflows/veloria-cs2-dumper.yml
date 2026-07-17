@@ -80,6 +80,16 @@ jobs:
             --output "$GITHUB_WORKSPACE" \
             $FORCE
 
+      - name: Check patterns
+        working-directory: _src/${{ secrets.DUMPER_PATH }}
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_REFRESH_TOKEN: ${{ secrets.STEAM_REFRESH_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_PATTERN_WEBHOOK }}
+        run: |
+          cargo build --profile dumper --bin pattern-check 2>&1
+          ./target/dumper/pattern-check --from-steam || true
+
       - name: Commit updated maps
         run: |
           git config user.name "github-actions[bot]"
