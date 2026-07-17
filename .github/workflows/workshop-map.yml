@@ -28,6 +28,31 @@ jobs:
     timeout-minutes: 30
 
     steps:
+      - name: Wait for GitHub API
+        run: |
+          check() {
+            curl -s -o /dev/null -w '%{http_code}' \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/${{ github.repository }}
+          }
+          i=0
+          for w in 5 10 15 30; do
+            i=$((i+1))
+            code=$(check)
+            [ "$code" = "200" ] && echo "✓ ready (attempt $i)" && exit 0
+            echo "HTTP $code — retry in ${w}s (attempt $i)"
+            sleep $w
+          done
+          deadline=$((SECONDS + 1800))
+          while [ $SECONDS -lt $deadline ]; do
+            i=$((i+1))
+            code=$(check)
+            [ "$code" = "200" ] && echo "✓ ready (attempt $i)" && exit 0
+            echo "HTTP $code — retry in 60s (attempt $i)"
+            sleep 60
+          done
+          exit 1
+
       - name: Checkout veloria-cs2-maps (this repo, output)
         uses: actions/checkout@v4
         with:
