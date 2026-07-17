@@ -53,12 +53,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Checkout Cowork (Rust source)
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
           repository: ${{ secrets.PRIVATE_REPO_NAME }}
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-          path: Cowork
+          path: _src
 
       - name: Rust toolchain
         uses: dtolnay/rust-toolchain@stable
@@ -66,10 +66,10 @@ jobs:
       - name: Rust cache
         uses: Swatinem/rust-cache@v2
         with:
-          workspaces: "Cowork/games/cs2/sdk/veloria-cs2-dumper -> target"
+          workspaces: "_src/${{ secrets.DUMPER_PATH }} -> target"
 
       - name: Run dumper
-        working-directory: Cowork/games/cs2/sdk/veloria-cs2-dumper
+        working-directory: _src/${{ secrets.DUMPER_PATH }}
         run: |
           FORCE=""
           if [ "${{ inputs.force }}" = "true" ]; then
