@@ -103,9 +103,9 @@ jobs:
           echo "::add-mask::$STEAM_REFRESH_TOKEN"
           export STEAM_USERNAME STEAM_REFRESH_TOKEN
           cargo build --profile dumper --bin pattern-check --bin dump-offsets 2>&1
-          ./target/dumper/pattern-check --from-steam || true
+          ./target/dumper/pattern-check --from-steam --anonymous || true
           BUILDID=$(node -e "try{console.log(JSON.parse(require('fs').readFileSync('$GITHUB_WORKSPACE/manifest.json','utf8')).buildid)}catch{console.log(0)}" 2>/dev/null || echo 0)
-          ./target/dumper/dump-offsets --from-steam --output "$GITHUB_WORKSPACE/offsets" --buildid "$BUILDID"
+          ./target/dumper/dump-offsets --from-steam --anonymous --output "$GITHUB_WORKSPACE/offsets" --buildid "$BUILDID"
 
       - name: Commit updated assets
         run: |
