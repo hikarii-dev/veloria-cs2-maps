@@ -12,7 +12,7 @@ This repository is automatically updated and serves as the asset and offset stor
 - **`manifest.json`** - Current CS2 build ID and map index
 
 ### Schemas (live dump)
-- **`schemas/`** - Full schema dump from a running CS2 process — all classes, enums, fields per DLL
+- **`schemas/`** - Full schema dump from a running CS2 process - all classes, enums, fields per DLL
 
 | File pattern | Contents |
 |---|---|
@@ -40,7 +40,7 @@ All offsets files group entries by DLL (`client.dll`, `engine2.dll`, etc.).
 
 ## Updates
 
-Assets and offsets are updated on every CS2 patch. Pattern signatures are verified automatically — if a signature breaks after an update, a notification is sent and offsets are re-extracted once fixed.
+Assets and offsets are updated on every CS2 patch. Pattern signatures are verified automatically - if a signature breaks after an update, a notification is sent and offsets are re-extracted once fixed.
 
 ## License
 
