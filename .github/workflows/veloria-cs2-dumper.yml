@@ -83,10 +83,13 @@ jobs:
       - name: Check patterns and dump offsets
         working-directory: _src/${{ secrets.DUMPER_PATH }}
         env:
-          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
-          STEAM_REFRESH_TOKEN: ${{ secrets.STEAM_REFRESH_TOKEN }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_PATTERN_WEBHOOK }}
         run: |
+          # Read Steam credentials from config.json (same source the main dumper binary uses)
+          STEAM_USERNAME=$(node -e "const c=JSON.parse(require('fs').readFileSync('config.json','utf8'));process.stdout.write(c.username)")
+          STEAM_REFRESH_TOKEN=$(node -e "const c=JSON.parse(require('fs').readFileSync('config.json','utf8'));process.stdout.write(c.refresh_token||'')")
+          echo "::add-mask::$STEAM_REFRESH_TOKEN"
+          export STEAM_USERNAME STEAM_REFRESH_TOKEN
           cargo build --profile dumper --bin pattern-check --bin dump-offsets 2>&1
           ./target/dumper/pattern-check --from-steam || true
           BUILDID=$(node -e "try{console.log(JSON.parse(require('fs').readFileSync('$GITHUB_WORKSPACE/manifest.json','utf8')).buildid)}catch{console.log(0)}" 2>/dev/null || echo 0)
