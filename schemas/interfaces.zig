@@ -1,5 +1,5 @@
 // Generated using https://github.com/hikarii-dev/veloria-cs2-dumper
-// 2026-07-18 23:11:06.784564500 UTC
+// 2026-07-22 16:03:06.417300700 UTC
 
 pub const cs2_dumper = struct {
     pub const interfaces = struct {
@@ -10,15 +10,15 @@ pub const cs2_dumper = struct {
         };
         // Module: client.dll
         pub const client_dll = struct {
-            pub const ClientBugBugServic001_Client: usize = 0x2093790;
-            pub const ClientToolsInfo_001: usize = 0x2093760;
-            pub const EmptyWorldService001_Client: usize = 0x206F480;
-            pub const GameClientExports001: usize = 0x2090400;
-            pub const LegacyGameUI001: usize = 0x20A3D00;
-            pub const Source2Client002: usize = 0x239E6D0;
-            pub const Source2ClientConfig001: usize = 0x230BA00;
-            pub const Source2ClientPrediction001: usize = 0x23A4140;
-            pub const Source2ClientUI001: usize = 0x20A2210;
+            pub const ClientBugBugServic001_Client: usize = 0x2094790;
+            pub const ClientToolsInfo_001: usize = 0x2094760;
+            pub const EmptyWorldService001_Client: usize = 0x2070480;
+            pub const GameClientExports001: usize = 0x2091400;
+            pub const LegacyGameUI001: usize = 0x20A4CD0;
+            pub const Source2Client002: usize = 0x239F6D0;
+            pub const Source2ClientConfig001: usize = 0x230CA00;
+            pub const Source2ClientPrediction001: usize = 0x23A5140;
+            pub const Source2ClientUI001: usize = 0x20A31F0;
         };
         // Module: engine2.dll
         pub const engine2_dll = struct {

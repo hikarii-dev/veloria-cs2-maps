@@ -1,5 +1,5 @@
 // Generated using https://github.com/hikarii-dev/veloria-cs2-dumper
-// 2026-07-18 23:11:06.784071300 UTC
+// 2026-07-22 16:03:06.416577800 UTC
 
 #pragma once
 #include <cstddef>
@@ -14,15 +14,15 @@ namespace cs2_dumper {
         }
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t ClientBugBugServic001_Client = 0x2093790;
-            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x2093760;
-            constexpr std::ptrdiff_t EmptyWorldService001_Client = 0x206F480;
-            constexpr std::ptrdiff_t GameClientExports001 = 0x2090400;
-            constexpr std::ptrdiff_t LegacyGameUI001 = 0x20A3D00;
-            constexpr std::ptrdiff_t Source2Client002 = 0x239E6D0;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x230BA00;
-            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x23A4140;
-            constexpr std::ptrdiff_t Source2ClientUI001 = 0x20A2210;
+            constexpr std::ptrdiff_t ClientBugBugServic001_Client = 0x2094790;
+            constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x2094760;
+            constexpr std::ptrdiff_t EmptyWorldService001_Client = 0x2070480;
+            constexpr std::ptrdiff_t GameClientExports001 = 0x2091400;
+            constexpr std::ptrdiff_t LegacyGameUI001 = 0x20A4CD0;
+            constexpr std::ptrdiff_t Source2Client002 = 0x239F6D0;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x230CA00;
+            constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x23A5140;
+            constexpr std::ptrdiff_t Source2ClientUI001 = 0x20A31F0;
         }
         // Module: engine2.dll
         namespace engine2_dll {

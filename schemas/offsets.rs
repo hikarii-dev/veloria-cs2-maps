@@ -1,5 +1,5 @@
 // Generated using https://github.com/hikarii-dev/veloria-cs2-dumper
-// 2026-07-18 23:11:06.785195600 UTC
+// 2026-07-22 16:03:06.418372600 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -7,18 +7,18 @@ pub mod cs2_dumper {
     pub mod offsets {
         // Module: client.dll
         pub mod client_dll {
-            pub const dwCSGOInput: usize = 0x23B95F0;
-            pub const dwEntityList: usize = 0x254EE60;
-            pub const dwGameEntitySystem: usize = 0x254EE60;
-            pub const dwGameRules: usize = 0x23A39D8;
-            pub const dwGlobalVars: usize = 0x208FD60;
-            pub const dwGlowManager: usize = 0x23A0708;
-            pub const dwLocalPlayerController: usize = 0x237EBA0;
-            pub const dwPlantedC4: usize = 0x236E678;
-            pub const dwPrediction: usize = 0x23A4140;
-            pub const dwViewMatrix: usize = 0x23A9340;
-            pub const dwViewRender: usize = 0x23A9398;
-            pub const dwWeaponC4: usize = 0x231C9D0;
+            pub const dwCSGOInput: usize = 0x23BA790;
+            pub const dwEntityList: usize = 0x254FE70;
+            pub const dwGameEntitySystem: usize = 0x254FE70;
+            pub const dwGameRules: usize = 0x23A49D8;
+            pub const dwGlobalVars: usize = 0x2090D60;
+            pub const dwGlowManager: usize = 0x23A1708;
+            pub const dwLocalPlayerController: usize = 0x237FB70;
+            pub const dwPlantedC4: usize = 0x236F658;
+            pub const dwPrediction: usize = 0x23A5140;
+            pub const dwViewMatrix: usize = 0x23AA340;
+            pub const dwViewRender: usize = 0x23AA398;
+            pub const dwWeaponC4: usize = 0x231DB10;
         }
         // Module: engine2.dll
         pub mod engine2_dll {

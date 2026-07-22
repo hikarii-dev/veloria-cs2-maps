@@ -1,5 +1,5 @@
 // Generated using https://github.com/hikarii-dev/veloria-cs2-dumper
-// 2026-07-18 23:11:06.783885600 UTC
+// 2026-07-22 16:03:06.416371600 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -9,15 +9,15 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: client.dll
     public static class ClientDll {
-        public const nint ClientBugBugServic001_Client = 0x2093790;
-        public const nint ClientToolsInfo_001 = 0x2093760;
-        public const nint EmptyWorldService001_Client = 0x206F480;
-        public const nint GameClientExports001 = 0x2090400;
-        public const nint LegacyGameUI001 = 0x20A3D00;
-        public const nint Source2Client002 = 0x239E6D0;
-        public const nint Source2ClientConfig001 = 0x230BA00;
-        public const nint Source2ClientPrediction001 = 0x23A4140;
-        public const nint Source2ClientUI001 = 0x20A2210;
+        public const nint ClientBugBugServic001_Client = 0x2094790;
+        public const nint ClientToolsInfo_001 = 0x2094760;
+        public const nint EmptyWorldService001_Client = 0x2070480;
+        public const nint GameClientExports001 = 0x2091400;
+        public const nint LegacyGameUI001 = 0x20A4CD0;
+        public const nint Source2Client002 = 0x239F6D0;
+        public const nint Source2ClientConfig001 = 0x230CA00;
+        public const nint Source2ClientPrediction001 = 0x23A5140;
+        public const nint Source2ClientUI001 = 0x20A31F0;
     }
     // Module: engine2.dll
     public static class Engine2Dll {

@@ -1,5 +1,5 @@
 // Generated using https://github.com/hikarii-dev/veloria-cs2-dumper
-// 2026-07-18 23:11:06.784893200 UTC
+// 2026-07-22 16:03:06.417878500 UTC
 
 #pragma once
 #include <cstddef>
@@ -9,18 +9,18 @@ namespace cs2_dumper {
     namespace offsets {
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t dwCSGOInput = 0x23B95F0;
-            constexpr std::ptrdiff_t dwEntityList = 0x254EE60;
-            constexpr std::ptrdiff_t dwGameEntitySystem = 0x254EE60;
-            constexpr std::ptrdiff_t dwGameRules = 0x23A39D8;
-            constexpr std::ptrdiff_t dwGlobalVars = 0x208FD60;
-            constexpr std::ptrdiff_t dwGlowManager = 0x23A0708;
-            constexpr std::ptrdiff_t dwLocalPlayerController = 0x237EBA0;
-            constexpr std::ptrdiff_t dwPlantedC4 = 0x236E678;
-            constexpr std::ptrdiff_t dwPrediction = 0x23A4140;
-            constexpr std::ptrdiff_t dwViewMatrix = 0x23A9340;
-            constexpr std::ptrdiff_t dwViewRender = 0x23A9398;
-            constexpr std::ptrdiff_t dwWeaponC4 = 0x231C9D0;
+            constexpr std::ptrdiff_t dwCSGOInput = 0x23BA790;
+            constexpr std::ptrdiff_t dwEntityList = 0x254FE70;
+            constexpr std::ptrdiff_t dwGameEntitySystem = 0x254FE70;
+            constexpr std::ptrdiff_t dwGameRules = 0x23A49D8;
+            constexpr std::ptrdiff_t dwGlobalVars = 0x2090D60;
+            constexpr std::ptrdiff_t dwGlowManager = 0x23A1708;
+            constexpr std::ptrdiff_t dwLocalPlayerController = 0x237FB70;
+            constexpr std::ptrdiff_t dwPlantedC4 = 0x236F658;
+            constexpr std::ptrdiff_t dwPrediction = 0x23A5140;
+            constexpr std::ptrdiff_t dwViewMatrix = 0x23AA340;
+            constexpr std::ptrdiff_t dwViewRender = 0x23AA398;
+            constexpr std::ptrdiff_t dwWeaponC4 = 0x231DB10;
         }
         // Module: engine2.dll
         namespace engine2_dll {

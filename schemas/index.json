@@ -1,5 +1,5 @@
 {
-  "build_number": 14171,
+  "build_number": 14172,
   "modules": [
     "animationsystem_dll",
     "client_dll",
@@ -20,5 +20,5 @@
     "vphysics2_dll",
     "worldrenderer_dll"
   ],
-  "timestamp": "2026-07-18 23:11:06 UTC"
+  "timestamp": "2026-07-22 16:03:06 UTC"
 }

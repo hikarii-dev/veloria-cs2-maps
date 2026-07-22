@@ -1,5 +1,5 @@
 // Generated using https://github.com/hikarii-dev/veloria-cs2-dumper
-// 2026-07-18 23:11:06.817330600 UTC
+// 2026-07-22 16:03:06.452218700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: panorama.dll
